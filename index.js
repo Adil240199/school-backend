@@ -1,4 +1,3 @@
-// index.js
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
@@ -12,10 +11,14 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: ["https://school-drab-nine.vercel.app/"],
+    methods: ["GET", "POST"],
+  })
+);
 app.use(morgan("dev"));
 
-// Подключение к MongoDB
 mongoose
   .connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
@@ -36,7 +39,6 @@ app.get("/api/reviews", async (req, res) => {
   }
 });
 
-// Добавить новый отзыв
 app.post("/api/reviews", async (req, res) => {
   try {
     const newReview = new Review(req.body);
