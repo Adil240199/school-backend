@@ -32,7 +32,7 @@ mongoose
 // Получить все отзывы
 app.get("/api/reviews", async (req, res) => {
   try {
-    const reviews = await Review.find();
+    const reviews = await Review.find().sort({ createdAt: -1 });
     res.json(reviews);
   } catch (err) {
     res.status(500).json({ error: "Server error" });
