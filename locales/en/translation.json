@@ -1,0 +1,83 @@
+{
+    "levelSelect": {
+        "title": "Choose the Right Course",
+        "courses": {
+          "elementary": {
+            "title": "Elementary",
+            "price": "Beginner · $100",
+            "description": "Our beginner course will help you master the basics: alphabet, grammar, speaking skills, and readiness to communicate in English."
+          },
+          "intermediate": {
+            "title": "Pre-Intermediate",
+            "price": "Intermediate · $100",
+            "description": "Designed for learners with basic English skills who want to improve grammar, expand vocabulary, and speak more confidently."
+          },
+          "upper": {
+            "title": "Upper-Intermediate",
+            "price": "Advanced · $100",
+            "description": "Advanced English course focusing on speaking, grammar, vocabulary, reading complex texts, and engaging in deep discussions."
+          }
+        },
+        "modals": {
+          "elementary": {
+            "title": "Beginner English (Elementary A1–A2)",
+            "content": [
+              "Course: Beginner English (Elementary A1–A2)",
+              "Format: Online group classes with up to 8 people (Zoom)",
+              "Lesson duration: 1.5 hours",
+              "Frequency: 3 times per week",
+              "Time: On agreed days and hours with the teacher",
+              "Lesson structure:",
+              "- Speaking practice (useful phrases, dialogues)",
+              "- Listening (understanding native and non-native speakers)",
+              "- Mini grammar explanations + exercises",
+              "- Review of previously covered material",
+              "Materials: Oxford/Cambridge + interactive platform",
+              "Teacher: Certified ESL teacher, experience ≥ 3 years",
+              "Homework: Small exercises + teacher feedback",
+              "Result: The course aims to raise your level to approximately A2, you'll receive a certificate and confidence in speaking."
+            ]
+          },
+          "intermediate": {
+            "title": "Intermediate English (B1–B2)",
+            "content": [
+              "Course: Intermediate English (B1–B2)",
+              "Format: Online group classes with up to 8 students (Zoom)",
+              "Lesson duration: 1.5 hours",
+              "Frequency: 3 times per week",
+              "Time: On agreed days and times with the teacher",
+              "Lesson structure:",
+              "- Intensive speaking practice on relevant topics",
+              "- Listening with native speakers (interviews, podcasts, movie clips)",
+              "- In-depth grammar study and active practice",
+              "- Vocabulary expansion (topic-based blocks, idioms)",
+              "- Discussion of texts, articles, and opinions",
+              "Materials: Oxford/Cambridge, real texts and videos + interactive platform",
+              "Teacher: Experienced ESL instructor with international certificate, 4+ years of experience",
+              "Homework: Creative tasks, essays, spoken responses with teacher feedback",
+              "Result: Raise your level to B2, gain confident communication in work and daily life, and receive a course certificate."
+            ]
+          },
+          "upper": {
+            "title": "Upper-Intermediate English (B2–C1)",
+            "content": [
+              "Course: Upper-Intermediate English (B2–C1)",
+              "Format: Online group classes with up to 8 students (Zoom)",
+              "Lesson duration: 1.5 hours",
+              "Frequency: 3 times per week",
+              "Time: On agreed days and times with the teacher",
+              "Lesson structure:",
+              "- Discussions on complex topics: society, culture, technology, professions",
+              "- Listening to advanced materials (interviews, news, TED Talks)",
+              "- Analysis and use of advanced grammar structures",
+              "- Working with authentic texts: analysis, summary, argumentation",
+              "- Optional exam preparation (IELTS, TOEFL, etc.)",
+              "Materials: Academic sources, media, articles, books, videos + interactive platform",
+              "Teacher: Professional ESL instructor with international certification, 5+ years of experience",
+              "Homework: Essays, presentations, spoken projects with teacher feedback",
+              "Result: Reach C1 level, gain academic and professional confidence, prepare for exams and public speaking, and receive a certificate."
+            ]
+          }
+        }
+      }
+}
