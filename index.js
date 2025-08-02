@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "https://school-drab-nine.vercel.app",
+      "https://school-raymea.vercel.app",
       "http://localhost:3001",
       "http://172.20.10.2:3001",
     ],
