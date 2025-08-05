@@ -6,6 +6,7 @@ const morgan = require("morgan");
 const i18next = require("i18next");
 const Backend = require("i18next-fs-backend");
 const middleware = require("i18next-http-middleware");
+const compression = require("compression");
 const path = require("path");
 
 const courseRoutes = require("./routes/courseRoutes");
@@ -16,6 +17,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
+app.use(compression());
 app.use(
   cors({
     origin: [
